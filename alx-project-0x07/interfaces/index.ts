@@ -1,5 +1,4 @@
-// Placeholder for interfaces
-// Add your interfaces here as needed
-
-export {};
-
+import * as React from "react”
+export interface ReactComponentProps {
+  children: React.ReactNode 
+}
